@@ -1,0 +1,16 @@
+pib_municipios:
+  format: CsvData
+  path: "teste.csv"
+  args:
+    delimiter: ";"
+
+base_fechamento_14_15:
+  format: CsvData
+  path: "teste2.csv"
+
+base_fechamento_16_17_18:
+  format: CsvData
+  path: "teste3.csv"
+  args:
+    delimiter: ";"
+    encoding: "ISO-8859-1"
